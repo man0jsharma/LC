@@ -10,6 +10,7 @@
  */
 var Solution = function (nums) {
     this.originalArray = nums;
+    return null;
 };
 
 /**
