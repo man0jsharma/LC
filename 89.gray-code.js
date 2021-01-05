@@ -41,7 +41,8 @@ var grayCode = function (n) {
     }
 
     return ans;
-
+    //This is idea behind this
+    // https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc1%2FBinary-reflected_Gray_code_construction.svg%2F250px-Binary-reflected_Gray_code_construction.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGray_code&tbnid=wTB_sph3CL4vSM&vet=12ahUKEwiGqKnWyIPuAhWYwCkDHWPXAF0QMygAegUIARDMAQ..i&docid=wRAbZmb9-75GNM&w=250&h=200&q=graycode&ved=2ahUKEwiGqKnWyIPuAhWYwCkDHWPXAF0QMygAegUIARDMAQ
 }
 
 console.log(grayCode(4));

@@ -45,6 +45,7 @@ var diffWaysToCompute = function (input) {
     if (ans.length == 0) {
         ans.push(Number.parseInt(input));
     }
+
     return ans;
 };
 // @lc code=end

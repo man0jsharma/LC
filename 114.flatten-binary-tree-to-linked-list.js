@@ -32,11 +32,11 @@ const convertToLL = (root) => {
     if (root === null) {
         return;
     }
-    if (root.left || root.right) {
-        convertToLL(root.left)
-        convertToLL(root.right)
-        root = swap(root)
-    }
+    // if (root.left || root.right) {
+    convertToLL(root.left)
+    convertToLL(root.right)
+    root = swap(root)
+    // }
 }
 
 const scrollRightLast = (root) => {

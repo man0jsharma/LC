@@ -23,7 +23,7 @@ var generateMatrix = function (n) {
     let value = 1;
     valueArray[0][0] = 1
 
-    while (array.length < n * n) {
+    while (value < n * n) {
         let addOn = direction[directionIndex]
         let last = array[array.length - 1];
         let newX = last[0] + addOn[0]
@@ -39,6 +39,6 @@ var generateMatrix = function (n) {
     return valueArray
 };
 
-console.log(generateMatrix(4))
+// console.log(generateMatrix(4))
 // @lc code=end
 

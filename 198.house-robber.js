@@ -10,23 +10,19 @@
  * @return {number}
  */
 var rob = function (nums) {
-    console.log({ nums })
-    const memo = {}
-    return dp(nums, nums.length - 1, memo);
+    return dp(nums, nums.length - 1);
 };
 
 
-const dp = (nums, i, memo) => {
+const dp = (nums, i, memo = {}) => {
     if (i < 0) {
         return 0
     }
-
-    if (memo[i] != undefined) {
+    if (memo[i] !== undefined) {
         return memo[i]
     }
-    let result = Math.max(dp(nums, i - 2, memo) + nums[i], dp(nums, i - 1, memo))
-    memo[i] = result;
-    return result;
+    const current = nums[i];
+    return memo[i] = Math.max(dp(nums, i - 2, memo) + current, dp(nums, i - 1, memo))
 }
 
 // @lc code=end

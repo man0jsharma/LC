@@ -9,13 +9,16 @@
  * @param {number} n
  * @return {number}
  */
-var climbStairs = function (n) {
+var climbStairs = function (n, memo = []) {
     if (n <= 0) return 0;
     if (n == 1) return 1;
     if (n == 2) return 2;
-    return climbStairs(n - 1) + climbStairs(n - 2)
+    if (memo[n] !== undefined) {
+        return memo[n];
+    }
+    return memo[n] = climbStairs(n - 1, memo) + climbStairs(n - 2, memo)
 };
 
-console.log(climbStairs(45))
+// console.log(climbStairs(45))
 // @lc code=end
 

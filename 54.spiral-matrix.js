@@ -25,7 +25,7 @@ var spiralOrder = function (matrix) {
             result.push(matrix[x][y])
             current = [x, y];
         } else {
-            moveIndex = moveIndex < movement.length - 1 ? moveIndex + 1 : 0;
+            moveIndex = (moveIndex + 1) % movement.length
         }
     }
     return result;

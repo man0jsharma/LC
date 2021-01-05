@@ -9,20 +9,20 @@
  * @param {number[]} heights
  * @return {number}
  */
-var largestRectangleArea = function (heights) {
+// var largestRectangleArea = function (heights) {
 
-    if (heights.length === 0) return 0;
-    let n = heights.length
-    let maxArea = 0;
-    for (let i = 0; i < n; i++) {
-        let minHeights = heights[i]
-        for (let j = i; j < n; j++) {
-            minHeights = Math.min(minHeights, heights[j]);
-            maxArea = Math.max(maxArea, (j - i + 1) * minHeights)
-        }
-    }
-    return maxArea;
-};
+//     if (heights.length === 0) return 0;
+//     let n = heights.length
+//     let maxArea = 0;
+//     for (let i = 0; i < n; i++) {
+//         let minHeights = heights[i]
+//         for (let j = i; j < n; j++) {
+//             minHeights = Math.min(minHeights, heights[j]);
+//             maxArea = Math.max(maxArea, (j - i + 1) * minHeights)
+//         }
+//     }
+//     return maxArea;
+// };
 
 
 Array.prototype.peek = function () {

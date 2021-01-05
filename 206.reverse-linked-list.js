@@ -16,14 +16,35 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList = function (head) {
-    if (head === null || head.next === null) {
-        return head;
+// var reverseList = function (head) {
+//     if (head === null || head.next === null) {
+//         return head;
+//     }
+//     let tail = reverseList(head.next);
+//     head.next.next = head;
+//     head.next = null;
+//     return tail;
+// };
+
+
+const reverseList = (head) => {
+
+    if (head === null) {
+        return null;
     }
-    let tail = reverseList(head.next);
-    head.next.next = head;
-    head.next = null;
-    return tail;
-};
+
+    let next = null;
+    let curr = head;
+    let prev = null;
+
+    while (curr !== null) {
+        next = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = next;
+    }
+
+    return prev;
+}
 // @lc code=end
 

@@ -16,7 +16,9 @@ var maximalSquare = function (matrix) {
     for (let i = 1; i <= rows; i++) {
         for (let j = 1; j <= cols; j++) {
             if (matrix[i - 1][j - 1] == '1') {
-                dp[i][j] = Math.min(dp[i][j - 1] || 0, dp[i - 1][j] || 0, dp[i - 1][j - 1] || 0) + 1;
+                dp[i][j] = Math.min(dp[i][j - 1] || 0,
+                    dp[i - 1][j] || 0,
+                    dp[i - 1][j - 1] || 0) + 1;
                 maxsqlen = Math.max(maxsqlen, dp[i][j]);
             }
         }

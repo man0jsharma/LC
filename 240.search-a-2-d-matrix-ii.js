@@ -26,6 +26,8 @@ var searchMatrix = function (matrix, target) {
     return false;
 };
 
+// O(M+N)
+
 // const binarySearch = (arr, target, start, end) => {
 //     // console.log({ arr, start, end })
 //     let mid = Math.floor((start + end) / 2);
