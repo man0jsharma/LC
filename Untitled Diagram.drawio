@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T22:41:01.727Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="T75hac2qMNSFc3h6Qt2z" version="14.1.7" type="github"><diagram id="ezZzf12axCYe5NanuqBu" name="Page-1">7Vpbc9o4GP01zCQP7PiOeQQSmp0k3UxpJ487wha2NsLyynKA/PqVZPkqA2kbknYTHkD+rJvPOTr65GFgz9bbTxSk8S0JIR5YRrgd2BcDyzI9f+zyXxHaFSF/PDKKSERRWMQagQV6gqptGc1RCDMVK0KMEMxQ2g4GJElgwFoxQCnZtKutCA5bgRREsDUNEVgEAEOt2j0KWawew23UvoIoisuRTUPdWYLgIaIkT9R4A8s25Ke4vQZlXyqQxSAkm0bIvhzYM0oIK0rr7QxigW4btvmeu9W8KUzYcxr8fX1phc5D8ucG4G2QzWej6WqoenkEOFd4fIVbpibMdiVITATtaczWmAdMXqQwQ09gKSsY/BrkjGQFueI2wChKeDngk4OUBx4hZYijPlE31igMReNpSlDCJIfudOBe8MgKYTwjmPBmFwlJRKWMUfIAO0GJPQzVBHQ4ymfjI8NtI6Tg+QTJGjK641XUXackXWnZLK83tTAcFYobmigZBkqKUdVzTQcvKEb62flru5vfm9tJfp8m62Do/XMbLHrYAVmokdPGYRMjBhcpCMTdDV+1bd6a4NaKLeHTsOpBdC98pum14bMdDT7T6sHPOxV+1o+qu1dvPbp8vsz7aOkT8E8x4BhOiwHLN99WwLZGgAY+74Vb/T6IXke5ttfBzdVx61Wuf7KVPzqOXC0f8zh61e5jaPLmYM7l5wDIK5KwvvovAP7QdH27bbxD3xrr1us6Xp92zdOR4P9O/tFi+LR8OWaHr1GV9TWdZmz08MV3hZPxNX4/i2Zsu1abA2dk6By88n5raARMKAW7975ixrZl/eF26PLKo1ODLs/U2XJPxtZzducknIhDlkAcgyxDQWdTPogaDMuz1/Mxaxp+j3bLGIUYMPTY7r4PIjXCnThmNCjxvbHdIcQx3HY3GclpAFXL5slK78zROnM7nTFAI8i0ziRz1eP/OJmOflaYI3405afpGPLvaw6qZdyISWR8AvPFGmAsix3Gsw1aYyDXWhAjHN6AHckF+BnjB97yahoTip44+aBewIAydby3jVaNhWipllnbf4V8VBvTKa/VXGrPLc/lVnnuhHeljowqdAMy1mfbIcjiasVr7tGx7kq/+83+RfzA9P2OXnzb0tzAGnn6AvBHR7X+BQYMJBGGTYm63T3bcXx9v/AsfUS7Y0AAc+wSwOBUcJmdRM165jWwPMyUROTroJIa799cvELhxNgr+WmGvEj83qKEN7mCfA8QW9Scf9+CrXxMGfp69vmGRNfnvD5Yi30iWWZp0R4X/cyLYYvufsPt7PtOSwccRhf1rq2SY/p1D+j3p7YzR8/+Wg4Y5inmyDJRlnoA8kvmJzNrMDE0Wj+s8FWssP3WqD8xer9W6Oo5dWlLWSolXCu29D1ljhORJ0XLM0vkIrwbPgGjUz7XzbJrgpM0pQQEIn0wz4VZEsoIymDho1ec6sJBxb3FmahSmWYxwapbGV7Sk0z5hIA0ALDkQ0LWfOLP+5/4XW4T4197m3D1RHmRL4ttgLOVr/k3WYmM+WM/eJP9YNw1Z3ekv419x/uB9aKp8Tdh5DwbTkvZ0zxJUBIt5EIAMn8KYshFyue1KpIp6fiIP51x1qo9FKvmI4k+5I7uL55Eu/o7oTtKwjwQwoLbAKaikEG8+nDHt3DHqlFtVY7+4sB2fV0zpunuF83/xx6dF7XHBYNpmfh+KbyOl+olsaJEON8NXIkrRkQ1+fwcCPBY1DYFArIyouKFW50Ht8awjoxR9isHwcWA+hjFWffwSPZ5q39p+0siXxAOh8Mqt+22/jByzSi/x8h7F6V/YE3uMXJ+Wf9pqFg29X+z7Mv/AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-07T22:41:10.999Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="iQEyLb5m8WNEbBWwPC2U" version="14.1.7" type="github">
+  <diagram id="ezZzf12axCYe5NanuqBu" name="Page-1">
+    <mxGraphModel dx="33500" dy="19400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_KE2d4knIwalxcsFC7Bf-1" value="Text" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-1" value="asd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="116" y="134" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-2" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="404" y="281" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="364" y="251" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-18" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-15410" y="-7970" width="4900" height="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-19" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#FFFFFF;fillColor=#000000;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-9352" y="-4700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-20" value="Array" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-9322.5" y="-4695" width="61" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-23" value="" style="endArrow=classic;html=1;fontColor=#FFFFFF;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-8693" y="-4405" as="sourcePoint" />
+            <mxPoint x="-8643" y="-4455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-41" value="Find the Kth Largest/Smallest" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-9188" y="-4832" width="276" height="87" as="geometry">
+            <mxRectangle x="-8510" y="-4480" width="62" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-48" value="&lt;font color=&quot;#ffffff&quot;&gt;Min Heap / Max heap T(NLogK)&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;" parent="OxyFW1xAuWpnmc-6jMcS-41" vertex="1">
+          <mxGeometry y="30" width="276" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-49" value="Find the duplicate in an array " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-9186" y="-4695" width="276" height="87" as="geometry">
+            <mxRectangle x="-8510" y="-4480" width="62" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-50" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;Approach 1) Tortoise/ Hare T(N) S(1)&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;Approach 2) Set T(N) S(N)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;" parent="OxyFW1xAuWpnmc-6jMcS-49" vertex="1">
+          <mxGeometry y="30" width="276" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-51" value="Subarray sum of K" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-9190" y="-4571" width="276" height="87" as="geometry">
+            <mxRectangle x="-8510" y="-4480" width="62" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-52" value="&lt;font color=&quot;#ffffff&quot;&gt;Use Map of runningSum and check if there is (runningSum - K)&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;" parent="OxyFW1xAuWpnmc-6jMcS-51" vertex="1">
+          <mxGeometry y="30" width="276" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-53" value="Product except self" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#FFFFFF;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-9221" y="-4442" width="358" height="115" as="geometry">
+            <mxRectangle x="-8510" y="-4480" width="62" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OxyFW1xAuWpnmc-6jMcS-54" value="&lt;font color=&quot;#ffffff&quot;&gt;Step 1) Running Product from Left to Right having 1 at first&lt;br&gt;Step 2) Running Product from Right to left having 1 at the first&lt;br&gt;Step 3) Product of both --- T(N)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#000000;" parent="OxyFW1xAuWpnmc-6jMcS-53" vertex="1">
+          <mxGeometry y="30" width="358" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
