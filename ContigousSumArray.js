@@ -1,8 +1,5 @@
 /*
-
 Check if a contiguous subArray can be created from array wwith sum k
-
-
 */
 
 

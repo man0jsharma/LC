@@ -26,6 +26,7 @@ var maxWidthRamp = function (A) {
         cache[i] = i;
     }
 
+    //NOT UNDERSTOOD
     console.log(cache)
 };
 
