@@ -22,7 +22,10 @@ const dp = (nums, i, memo = {}) => {
         return memo[i]
     }
     const current = nums[i];
-    return memo[i] = Math.max(dp(nums, i - 2, memo) + current, dp(nums, i - 1, memo))
+    return memo[i] = Math.max(
+        dp(nums, i - 2, memo) + current,
+        dp(nums, i - 1, memo)
+    )
 }
 
 // @lc code=end

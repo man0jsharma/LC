@@ -18,7 +18,7 @@ var maximalSquare = function (matrix) {
             if (matrix[i - 1][j - 1] == '1') {
                 dp[i][j] = Math.min(dp[i][j - 1] || 0,
                     dp[i - 1][j] || 0,
-                    dp[i - 1][j - 1] || 0) + 1;
+                    dp[i - 1][j - 1] || 0) + 1; // Max of top left and diagonal
                 maxsqlen = Math.max(maxsqlen, dp[i][j]);
             }
         }
