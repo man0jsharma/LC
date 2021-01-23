@@ -11,44 +11,37 @@
  */
 
 
-const { matprint } = require('./lib/matPrint')
-var longestPalindrome = function (s) {
-    let n = s.length;
-    let dp = Array.from({ length: n }, () => Array.from({ length: n }, () => 0))
+var longestPalindrome = (str) => {
+    let n = str.length;
 
-    const dyn = (s, dp, i = 0, j = n - 1, pIndex = n - 1) => {
-        if (i > j) {
-            return 0
-        }
-        if (i === j) {
-            dp[i][j] = 1
-            return 1;
-        }
-        if (s[i] === s[j]) {
-            dp[i][j] = 2 + dyn(s, dp, i + 1, j - 1)
-        } else
-            dp[i][j] = Math.max(dyn(s, dp, i, j - 1), dyn(s, dp, i + 1, j))
-        return dp[i][j]
+    let dp = Array.from({ length: n }, () => Array.from({ length: n }, () => false));
+
+    let max = Number.NEGATIVE_INFINITY
+
+    let start = 0;
+    let end = 0;
+    for (let i = 0; i < n; i++) {
+        dp[i][i] = true
     }
 
-    let maxLength = dyn(s, dp);
-    let end = -1
-    for (let j = 0; j < n; j++) {
-        if (dp[0][j] === maxLength) {
-            end = j
-            break;
+    for (let i = 0; i < n - 1; i++) {
+        if (str[i] === str[i + 1]) {
+            start = i;
+            end = i + 1
+            dp[i][i + 1] = true
         }
     }
 
-    return s.substring(end - maxLength + 1, end + 1)
-};
+    for (let len = n - 2; len >= 0; len--)
+        for (let j = n - len, i = 0; i < len; j++, i++) {
+            dp[i][j] = str[i] === str[j] && dp[i + 1][j - 1]
+            if (dp[i][j] && max < j - i + 1) {
+                max = j - i + 1;
+                start = i;
+                end = j
+            }
+        }
 
+    return str.slice(start, end + 1)
+}
 
-// console.log(longestPalindrome("banana"))
-// console.log(longestPalindrome("babad"))
-// console.log(longestPalindrome("a"))
-// console.log(longestPalindrome("aacabdkacaa")
-console.log(longestPalindrome("aacabdkacaa"))
-// @lc code=end
-
-000000
