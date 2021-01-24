@@ -27,16 +27,13 @@
 var sortedArrayToBST = function (nums) {
 
     const buildTree = (start = 0, end = nums.length - 1) => {
-
         if (start > end) {
             return null;
         }
-
-        let mid = Math.ceil((start + end) / 2); // using ciel here
+        let mid = start + Math.ceil((end - start) / 2); // using ceil here
         let root = new TreeNode(nums[mid]);
         root.left = buildTree(start, mid - 1)
         root.right = buildTree(mid + 1, end);
-
         return root;
     }
 
