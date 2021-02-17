@@ -36,7 +36,7 @@ const helper = (root, p, q) => {
     let l = helper(root.left, p, q)
     let r = helper(root.right, p, q)
 
-    console.log({ l, r })
+    console.log({ l, r, root })
     if (l === null) return r;
     if (r === null) return l;
     return root;
